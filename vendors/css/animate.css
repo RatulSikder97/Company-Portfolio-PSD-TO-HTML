@@ -22,6 +22,8 @@ svg.radial-progress circle.complete {
 }
 
 svg.radial-progress text {
-    fill: #000;
+    fill: #3c4761;
     text-anchor: middle;
+    font-size: 1.5rem;
 }
+

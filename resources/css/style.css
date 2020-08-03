@@ -279,3 +279,38 @@ header{
     background: #3c5a99;   
     transform: rotate(360deg);
 }
+
+/* =================== */
+/* Skill drction */
+/* =================== */
+
+.skill-section{
+    background: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)) ,url("/resources/css/img/skill-bg.jpg") no-repeat scroll left top;
+    background-size: cover;
+    color: #3c4761;
+    text-align: center;
+}
+
+.skill-section h2::after{
+    background: #dfe8ed;
+}
+
+svg.radial-progress circle{
+    stroke-width: 5;
+}
+
+svg.web-design circle{
+    stroke: #30bae7;
+}
+
+svg.html-css circle{
+    stroke: #d74680;
+}
+
+svg.gc-design circle{
+    stroke: #15c7a8;
+}
+
+svg.ui-ux circle{
+    stroke: #eb7d4b;
+}
