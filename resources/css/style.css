@@ -211,8 +211,9 @@ header{
 /* ================= */
 
 .team-section{
-    background: #e7f1f8;
+    background: linear-gradient(rgba(231, 241, 248, 0.9),rgba(231, 241, 248, 0.9)) ,url("/resources/css/img/team-bg.jpg") no-repeat fixed center center;
     text-align: center;
+    background-size: cover;
     color: #3c4761;
 }
  .team-section h2{
@@ -237,9 +238,11 @@ header{
 }
 
 .role{
+    display: inline-block;
     font-size: 1.6rem;
     text-transform: capitalize;
     color: #30bae7;
+    margin-top: 0.5rem;
 }
 
 .social-link{
