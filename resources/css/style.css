@@ -205,3 +205,73 @@ header{
     margin-bottom:4.0rem ;
     
 }
+
+/* ================= */
+/*     TEAM SECTION  */
+/* ================= */
+
+.team-section{
+    background: #e7f1f8;
+    text-align: center;
+    color: #3c4761;
+}
+ .team-section h2{
+    color: #3c4761;
+}
+
+/*.team-section .little-desciption{
+    color: #3c4761;
+} */
+
+.team-section h2::after{
+    background-color: #c8d9e5;
+}
+
+.team-member{
+    margin-top: 4.5rem;
+    margin-bottom: 3.5rem;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+
+}
+
+.role{
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    color: #30bae7;
+}
+
+.social-link{
+    margin-top: 4.5rem;
+    
+}
+
+.social-link ul li{
+    display: inline-block;
+    margin: 0 .5rem;
+}
+
+.social-link ul li a:link,
+.social-link ul li a:visited{
+    color: #fff;
+}
+
+.social-link ul li a:link i::before,
+.social-link ul li a:visited i::before{
+    
+    background-color: #bdd1df;
+    display: inline-block;
+    height: 2.0rem;
+    width: 2rem;
+    font-size: 2.0rem;
+    padding: 1.0rem;
+    border-radius: 50%;
+    transition: 0.2s transform;
+}
+
+
+.social-link ul li a:hover i::before{
+    background: #3c5a99;   
+    transform: rotate(360deg);
+}
