@@ -366,3 +366,7 @@ svg.ui-ux circle{
     background: #17c2a4;
     border-color: #14a58c;
 }
+
+.portfolio-section .mixitup-control-active{
+    background: #fff;
+}
