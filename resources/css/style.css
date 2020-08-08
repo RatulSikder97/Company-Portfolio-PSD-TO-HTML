@@ -431,3 +431,51 @@ svg.ui-ux circle{
 .client-review .role{
     color: #ffdd99;
 }
+
+/* =================== */
+/* CONTACT SECTION */
+/* =================== */
+
+.contact-section{
+    background: linear-gradient(rgba(60, 84, 154, 0.842),rgba(60, 84, 154, 0.842)),url("/resources/css/img/contact-bg.jpg") no-repeat fixed center center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.contact-section h2::after{
+    background-color: #273a71;
+}
+
+.contact-section form{
+    margin-top: 5rem;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.contact-section form input[type="text"],
+.contact-section form input[type="email"],
+.contact-section form textarea{
+    background: #273a71;
+    border: 0.1rem solid #273a71;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem ;
+    font-size: 1.8rem;
+    color: #fff;
+    margin: 0.5rem 0;
+}
+.contact-section form ::placeholder{
+    color: #fff;
+    opacity: 1;
+}
+
+.btn-submit{
+    border: 0;
+    background: #30bae7;
+    border-bottom: 0.3rem solid #299ec5;
+}
+
+.btn-submit:hover{
+    cursor: pointer;
+}
+
