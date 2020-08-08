@@ -26,14 +26,14 @@
 <body>
 
     <!-- START HEADER SECTION -->
-    <header>
+    <header id="header">
         <nav>
             <div class="row">
                 <a href="#"><img src="resources/img/logo.png" alt="CUDA LOG" class="logo"></a>
 
 
                 <ul class="main-nav">
-                    <li class="active"><a href="#">Home</a></li>
+                    <li class="active"><a href="#header">Home</a></li>
                     <li><a href="#services">SERVICE</a></li>
                     <li><a href="#team">TEAM</a></li>
                     <li><a href="#skill">Skills</a></li>
@@ -57,7 +57,7 @@
     <!-- END HEADER SECTION -->
 
     <!-- START SERVICES SECTION -->
-    <section class="services-section" id="services">
+    <section class="services-section js--services-section" id="services">
         <div class="row">
             <h2>
                 services we provided
@@ -397,7 +397,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous">
     </script>
+
     <script src="vendors/js/html5shiv.min.js"></script>
+    <script src="/vendors/js/jquery.waypoints.min.js"></script>
     <script src="vendors/js/respond.min.js"></script>
     <script src="vendors/js/selectivizr.js"></script>
     <script src="/vendors/js/mixitup.min.js"></script>

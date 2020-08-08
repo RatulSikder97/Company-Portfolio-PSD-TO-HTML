@@ -128,6 +128,7 @@ header{
     position: relative;
 }
 
+
 .logo{
     height: 3.5rem;
     width: auto;
@@ -175,6 +176,22 @@ header{
     border-radius: 0.3rem;   
 }
 
+/* Sticky navigation */
+
+.sticky{
+  position: fixed;
+  top: 0;
+  left: 0;  
+  width: 100%;
+  background: #87509c;
+  padding: 1rem 0;
+  box-shadow: 0 0.2rem 0.5rem rgba(255, 255, 255, 0.726); 
+}
+
+.sticky .logo,
+.sticky .main-nav{
+    margin-top: 0;
+}
 .hero-text-box{
     position: absolute;
     top: 50%;
